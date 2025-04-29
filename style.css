@@ -7,31 +7,34 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(206, 210, 216), rgb(8, 123, 189));
 }
 
 button {
-  font-size: 7px;
+  font-size: 12px;
+  position: center;
 }
 
+
 #main-content {
-  position: relative;
+  position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  border: 8px solid #333333;
+  background: rgba(148, 19, 146, 0.642);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px #3333330b;
 }
 
 #list {
   margin: 10px;
-  border: 1px solid #333;
+  border: 1px solid #33333326;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+css .important { background-color: yellow; font-weight: bold; }

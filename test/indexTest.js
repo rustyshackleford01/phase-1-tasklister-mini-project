@@ -3,7 +3,7 @@ global.expect = chai.expect;
 
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require('jsdom');
+const { JSDOM } = require('jsdom');``
 const babel = require('@babel/core');
 
 // Load HTML content
